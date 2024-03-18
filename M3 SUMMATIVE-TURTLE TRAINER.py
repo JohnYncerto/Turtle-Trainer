@@ -26,10 +26,6 @@ def wrong_answer():
 
 #shape training------------------------------------------------------------------------------------
 def turtle_shapes():
-    btnqS1o1.config(state="enabled")
-    btnqS1o2.config(state="enabled")
-    btnqS1o3.config(state="enabled")
-    btnqS1o4.config(state="enabled")
     screen = turtle.Screen()
     turtle.title("Shapes training")
     t = turtle.Turtle()
@@ -123,7 +119,6 @@ filled-in with the color of your choice.
 
 #color training------------------------------------------------------------------------------------
 def turtle_colors():
-    btnqC1o1.config(state="enabled")
     screen = turtle.Screen()
     turtle.title("Pen and Colors training")
     t = turtle.Turtle()
@@ -229,10 +224,6 @@ def right_C5():
 #color training------------------------------------------------------------------------------------
 #text training------------------------------------------------------------------------------------
 def turtle_text():
-    btnqT1o1.config(state="enabled")
-    btnqT1o2.config(state="enabled")
-    btnqT1o3.config(state="enabled")
-    btnqT1o4.config(state="enabled")
     screen = turtle.Screen()
     turtle.title("Text training")
     t = turtle.Turtle()
